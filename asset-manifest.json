@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.982db427.chunk.css",
+    "main.js": "/react-gh-pages/static/js/main.3eedc6db.chunk.js",
+    "main.js.map": "/react-gh-pages/static/js/main.3eedc6db.chunk.js.map",
+    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.6c3b584a.js",
+    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.6c3b584a.js.map",
+    "static/css/2.4be38407.chunk.css": "/react-gh-pages/static/css/2.4be38407.chunk.css",
+    "static/js/2.c790eeaa.chunk.js": "/react-gh-pages/static/js/2.c790eeaa.chunk.js",
+    "static/js/2.c790eeaa.chunk.js.map": "/react-gh-pages/static/js/2.c790eeaa.chunk.js.map",
+    "index.html": "/react-gh-pages/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/react-gh-pages/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.982db427.chunk.css.map": "/react-gh-pages/static/css/main.982db427.chunk.css.map",
+    "static/js/2.c790eeaa.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.c790eeaa.chunk.js.LICENSE.txt",
+    "static/media/black.de63318d.jpg": "/react-gh-pages/static/media/black.de63318d.jpg",
+    "static/media/bootstrap.30b415c0.svg": "/react-gh-pages/static/media/bootstrap.30b415c0.svg",
+    "static/media/countries.d85a33d1.png": "/react-gh-pages/static/media/countries.d85a33d1.png",
+    "static/media/css.84e42507.svg": "/react-gh-pages/static/media/css.84e42507.svg",
+    "static/media/github.be7e677a.svg": "/react-gh-pages/static/media/github.be7e677a.svg",
+    "static/media/html5.30e7298e.svg": "/react-gh-pages/static/media/html5.30e7298e.svg",
+    "static/media/js.6075a97b.svg": "/react-gh-pages/static/media/js.6075a97b.svg",
+    "static/media/moives.42edb4a4.png": "/react-gh-pages/static/media/moives.42edb4a4.png",
+    "static/media/profile.a0be25bd.jpg": "/react-gh-pages/static/media/profile.a0be25bd.jpg",
+    "static/media/quiz.a2419006.png": "/react-gh-pages/static/media/quiz.a2419006.png",
+    "static/media/react.484e1dc8.png": "/react-gh-pages/static/media/react.484e1dc8.png",
+    "static/media/searchmovie.3d218747.png": "/react-gh-pages/static/media/searchmovie.3d218747.png",
+    "static/media/todo.b6a9c482.png": "/react-gh-pages/static/media/todo.b6a9c482.png",
+    "static/media/youtube.e2c0b784.png": "/react-gh-pages/static/media/youtube.e2c0b784.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c3b584a.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.c790eeaa.chunk.js",
+    "static/css/main.982db427.chunk.css",
+    "static/js/main.3eedc6db.chunk.js"
+  ]
+}
