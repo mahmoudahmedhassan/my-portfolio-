@@ -1,23 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import Sidebar from "./Components/Sidbar/Sidebar";
+import Home from "./pages/home/Home.js";
+import Profile from "./pages/profile/Profile.js";
+import Work from "./pages/my work/Work.js";
+import Sikles from "./pages/sikles/Sikles.js";
+import CallME from "./pages/call me/CallME.js";
 
+import { BrowserRouter as Router, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App ">
+            <div className='animation-area' >
+               <ul className="box-area">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            </div>
+        <Router>
+          
+        <Sidebar />
+        <div className="pages">
+
+          <Route exact path="/">
+            <Home />
+          </Route>
+
+          <Route path="/Profile">
+            <Profile />
+          </Route>
+
+          <Route path="/Sikles">
+            <Sikles />
+          </Route>
+
+          <Route path="/Work">
+            <Work />
+          </Route>
+
+          <Route path="/CallME">
+            <CallME />
+          </Route>
+        </div>
+      </Router>
     </div>
   );
 }

@@ -1,0 +1,85 @@
+import React from "react";
+import "./callme.css";
+import { Container, Row, Col } from "react-bootstrap";
+import { motion } from "framer-motion";
+
+import { FiPhoneCall } from "react-icons/fi";
+import { HiOutlineMail } from "react-icons/hi";
+import { HiOutlineLocationMarker } from "react-icons/hi";
+
+import facebook from "../../SVG/facebook.png";
+import github from "../../SVG/github-sign.png";
+import whatsapp from "../../SVG/whatsapp.png";
+// import phone from "../../SVG/phone-call.png";
+
+
+function CallME() {
+  return (
+    <motion.div
+      initial={{ y: 1000 }}
+      animate={{ y: 0 }}
+      transition={{ type: "spring", duration: 1 }}
+      style={{width:'100%'}}
+    >
+      <div className="call-me">
+        <h1 className="call-me-title">Contact Me</h1>
+        <Container>
+          <Row>
+            <Col>
+              <div className="details">
+                <div>
+                  <FiPhoneCall className="detailes-icon" /> <span>phone</span>
+                  <p className="details-area">01096759755</p>
+                </div>
+              </div>
+            </Col>
+
+            <Col>
+              <div className="details">
+                <div>
+                  <HiOutlineMail className="detailes-icon" /> <span>Email</span>
+                </div>
+                <p className="details-area">hekou77@gmail.com</p>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <div className="details">
+                <div>
+                  <HiOutlineLocationMarker className="detailes-icon" />{" "}
+                  <span>location</span>
+                </div>
+                <p className="details-area">Assuit</p>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+        <div className="social-media">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/show9595/" target="_blank">
+                  <img src={facebook} alt="" height="50px" width="50px" />
+              </a>
+            </li>
+
+            <li>
+            <a href="https://github.com/mahmoudahmedhassan" target="_blank">
+               <img src={github} alt="" height="50px" width="50px" />
+            </a>
+            </li>
+
+            <li > 
+              <a href="http://whatsapp.my/01096759755" target="_blank">
+                 <img src={whatsapp} alt="" height="50px" width="50px" />
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </motion.div>
+  );
+}
+
+export default CallME;

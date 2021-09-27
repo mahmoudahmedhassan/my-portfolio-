@@ -1,0 +1,84 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* width: 100vw; */
+  height: auto;
+  padding-top: 40px;
+ 
+}
+.work h1 {
+  text-align: center;
+  color: var(--main-color);
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.my-work {
+  position: relative;
+  margin-bottom: 30px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow:0 0 5px #000;
+
+}
+.soon {
+  background: #262626;
+}
+.my-work:hover .overlay {
+  background: rgba(0, 0, 0, 0.534);
+}
+.overlay .show-demo {
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  width: 150px;
+  background: var(--main-color);
+  color: #fff;
+  opacity: 0;
+  transition: 0.3s;
+}
+.overlay .caption {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.my-work:hover .show-demo {
+  opacity: 1;
+}
+.my-work:hover .caption {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  opacity: 1;
+}
+.my-work img {
+  height: 200px;
+  width: 100%;
+  border-radius: 20px;
+}
+@media (min-width: 425px) and (max-width: 767.98px) {
+  .my-work {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 991.98px) {
+  .work {
+    height: auto;
+    margin: 30px 0;
+  }
+}

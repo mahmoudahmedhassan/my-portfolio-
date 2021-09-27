@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200&display=swap');
+
+.call-me{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height:100vh;
+}
+.call-me-title{
+    margin-bottom: 30px;
+    text-align:center;
+    font-family: 'Oswald', sans-serif;   
+    text-transform: capitalize;
+    color: var(--main-color);
+    font-weight: bold;
+ 
+}
+.details{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom:30px;
+    padding-left:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 20px;
+}
+.detailes-icon{
+    margin-right: 10px;
+    background-color:var(--main-color);
+    color:#fff;
+    padding:10px;
+    border-radius: 50%;
+    font-size:2.5rem
+}
+.details span ,.details-area{
+    font-size: 25px;
+    font-weight: bold;
+}
+.details-area{
+    margin-left: 50px;
+}
+.social-media{
+    margin-top: 50px;
+    position: relative;
+}
+
+.social-media ul{
+    list-style: none;
+    display: flex;
+}
+.social-media ul li{
+    margin-left: 20px;
+    z-index: 9999;
+}
+.social-media ul img{
+    border-radius: 50%;
+}
+
+/* @media (max-width:600px){
+    .call-me{
+        height: 681px;
+    } */
+/* } */
