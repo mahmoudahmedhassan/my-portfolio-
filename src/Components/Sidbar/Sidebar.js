@@ -15,6 +15,7 @@ import { CgPlayListRemove } from "react-icons/cg";
 import { Link } from "react-router-dom";
 
 import { motion } from "framer-motion";
+import logo from "../../SVG/logo.jpg";
 
 function Sidebar() {
   const [click, setClick] = useState(false);
@@ -31,15 +32,11 @@ function Sidebar() {
     if (darkMode) {
       document.documentElement.style.setProperty(
         "--main-color",
-        // "#202c37"
-        "#626c75"
+         "#626c75"
       );
       document.documentElement.style.setProperty("--very-dark", "#000");
 
-      // document.documentElement.style.setProperty(
-      //   "--very-dark-blue-text",
-      //   "#fafafa"
-      // );
+     
     } else {
       document.documentElement.style.setProperty(
         "--main-color",
@@ -50,10 +47,7 @@ function Sidebar() {
         "--very-dark", "rgb(204, 204, 204)"
         );
  
-      // document.documentElement.style.setProperty(
-      //   "--very-dark-blue-text",
-      //   "#111517"
-      // );
+     
     }
   }, [darkMode]);
 
@@ -73,7 +67,7 @@ function Sidebar() {
 
           <div className="logo">
             <img
-              src="https://scontent.fcai20-6.fna.fbcdn.net/v/t39.30808-6/227042785_1642308275975235_2368776656571957236_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=dbeb18&_nc_ohc=Ira-RGMQQkMAX-GAvDT&_nc_ht=scontent.fcai20-6.fna&oh=ea1025064619b8a16d45e16485d85ee6&oe=61073D8E"
+              src= {logo}
               alt="logo"
               height="50px"
               width="50px"

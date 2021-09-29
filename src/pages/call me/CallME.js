@@ -58,19 +58,19 @@ function CallME() {
         <div className="social-media">
           <ul>
             <li>
-              <a href="https://www.facebook.com/show9595/" target="_blank">
+              <a href="https://www.facebook.com/show9595/" target="_blank" rel="noopener noreferrer">
                   <img src={facebook} alt="" height="50px" width="50px" />
               </a>
             </li>
 
             <li>
-            <a href="https://github.com/mahmoudahmedhassan" target="_blank">
+            <a href="https://github.com/mahmoudahmedhassan" target="_blank" rel="noopener noreferrer">
                <img src={github} alt="" height="50px" width="50px" />
             </a>
             </li>
 
             <li > 
-              <a href="http://whatsapp.my/01096759755" target="_blank">
+              <a href="http://whatsapp.my/01096759755" target="_blank" rel="noopener noreferrer">
                  <img src={whatsapp} alt="" height="50px" width="50px" />
               </a>
             </li>
