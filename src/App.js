@@ -28,19 +28,19 @@ function App() {
             <Home />
           </Route>
 
-          <Route path="/Profile">
+          <Route path="/profile">
             <Profile />
           </Route>
 
-          <Route path="/Sikles">
+          <Route path="/sikles">
             <Sikles />
           </Route>
 
-          <Route path="/Work">
+          <Route path="/work">
             <Work />
           </Route>
 
-          <Route path="/CallME">
+          <Route path="/callME">
             <CallME />
           </Route>
         </div>

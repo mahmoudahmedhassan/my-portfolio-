@@ -7,6 +7,7 @@ import countries from "../../SVG/countries.png";
 import moives from "../../SVG/moives.png";
 import searchmovie from "../../SVG/searchmovie.png";
 import youtube from "../../SVG/youtube.png";
+import ecommerce from "../../SVG/ecommerce.png";
 
 import black from "../../SVG/black.jpg";
 import { motion } from "framer-motion";
@@ -28,7 +29,7 @@ function Work() {
             <div className="my-work">
               <div className="overlay">
                   <p className="caption">Redux Todo Site</p>
-                <button className="show-demo"> <a  target='_blank'  href='https://musing-haibt-44ee70.netlify.app' rel="noopener noreferrer" >Demo Live</a> </button>
+                <button className="show-demo"> <a  target='_blank'  href='https://todo-react-app-11.netlify.app/' rel="noopener noreferrer" >Demo Live</a> </button>
               </div>
               <img src={todo} alt="todo app" />
             </div>
@@ -37,7 +38,7 @@ function Work() {
             <div className="my-work" >
               <div className="overlay">
                   <p className="caption">  Quiz Site </p>
-                <button className="show-demo"><a href='https://quizapp-11.netlify.app/' target='_blank' rel="noopener noreferrer">Demo Live</a> </button>
+                <button className="show-demo"><a href='https://react-quiz-app-1.netlify.app/' target='_blank' rel="noopener noreferrer">Demo Live</a> </button>
               </div>
               <img src={quiz} alt="quiz app" />
             </div>
@@ -75,9 +76,19 @@ function Work() {
             <div className="my-work">
               <div className="overlay">
                  <p className="caption">Clone Static YouTube   </p>
-                <button className="show-demo"> <a href='https://staticolonyoutube.netlify.app/' target='_blank' rel="noopener noreferrer"> Demo Live</a></button>
+                <button className="show-demo"> <a href='https://colon-static-youtube.netlify.app/' target='_blank' rel="noopener noreferrer"> Demo Live</a></button>
               </div>
               <img src={youtube} alt="searchmovie app" />
+            </div>
+          </Col>
+
+          <Col xs={12} md={6} lg={4}>
+            <div className="my-work">
+              <div className="overlay">
+                 <p className="caption">E-commerce React-Redux </p>
+                <button className="show-demo"> <a href='https://e-commerce-react-redux-1.netlify.app/' target='_blank' rel="noopener noreferrer"> Demo Live</a></button>
+              </div>
+              <img src={ecommerce} alt="searchmovie app" />
             </div>
           </Col>
 

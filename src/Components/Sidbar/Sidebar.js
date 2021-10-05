@@ -76,7 +76,7 @@ function Sidebar() {
 
           <div className="SidebarContainer" >
             <ul className="sidebar_list">
-              <Link to="./">
+              <Link to="/">
                 <li>
                   <GoHome className="sidbar_icons" />
                   <motion.span className= "abeer"
