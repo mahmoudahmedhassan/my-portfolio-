@@ -65,7 +65,7 @@ function CallME() {
 
             <li>
             <a href="https://github.com/mahmoudahmedhassan" target="_blank" rel="noopener noreferrer">
-               <img src={github} alt="" height="50px" width="50px" />
+               <img src={github} alt="" height="50px" width="50px" style={{ backgroundColor:'var(--white)'}}/>
             </a>
             </li>
 

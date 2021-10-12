@@ -14,24 +14,19 @@ code {
  
 :root{
 	--main-color:rgb(97,27,227);
+	--clone-main-color:rgb(97,27,227);
+	--clone-white: #ffffff;
+
+
  	--dark-blue: #2b3945;
 	
 	--very-dark: #000000;
 	--very-dark-blue-text: #111517;
-	--dark-gray: #858585;
+	--dark-gray: #626c75;
 	--very-light-gray: #f7c7c7;
 	--white: #ffffff;
-}
 
-:root{
-	--dark-blue: #2b3945;
-	
-	--very-dark-blue: #202c37;
-	--very-dark-blue-text: #111517;
-	--dark-gray: #858585;
-	--very-light-gray: #f7c7c7;
-	--white: #ffffff;
-  }
+}
 
 *{
   margin: 0;
@@ -147,7 +142,7 @@ body::-webkit-scrollbar-thumb{
 	.pages{
 		width: 100vw;
 		/* height: auto; */
-		background-color: rgb(204, 204, 204);
+		background-color: var(--very-dark);
 		z-index: 1;
 		display: flex;
 		justify-content:center;

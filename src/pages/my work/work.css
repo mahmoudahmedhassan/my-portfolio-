@@ -11,7 +11,7 @@
 }
 .work h1 {
   text-align: center;
-  color: var(--main-color);
+	color:var(--clone-main-color);
   font-weight: bold;
   margin-bottom: 50px;
 }

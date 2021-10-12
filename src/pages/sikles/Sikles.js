@@ -19,7 +19,7 @@ function Sikles() {
     style={{ width: "100%" }}
   >
     <div className="sikles">
-         <h1>My Sikles</h1>
+         <h1>My Skills</h1>
  
       <Container>
         <Row>

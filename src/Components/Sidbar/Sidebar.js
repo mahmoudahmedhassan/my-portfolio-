@@ -29,24 +29,21 @@ function Sidebar() {
   };
  
   useEffect(() => {
-    if (darkMode) {
-      document.documentElement.style.setProperty(
-        "--main-color",
-         "#626c75"
-      );
-      document.documentElement.style.setProperty("--very-dark", "#000");
 
-     
+    if (darkMode) {
+      document.documentElement.style.setProperty("--main-color","#626c75");
+      document.documentElement.style.setProperty("--very-dark", "#000");
+      document.documentElement.style.setProperty("--white", "#626c75");
+      document.documentElement.style.setProperty("--clone-main-color","#fff" );
+      document.documentElement.style.setProperty("--clone-white","#fff" );
+    
     } else {
-      document.documentElement.style.setProperty(
-        "--main-color",
-        "rgb(97,27,227)"
-      );
-      
-      document.documentElement.style.setProperty(
-        "--very-dark", "rgb(204, 204, 204)"
-        );
- 
+      document.documentElement.style.setProperty("--main-color","rgb(97,27,227)");
+      document.documentElement.style.setProperty("--very-dark", "rgb(204, 204, 204)");
+      document.documentElement.style.setProperty("--white","#fff" );
+      document.documentElement.style.setProperty("--clone-main-color","rgb(97,27,227)" );
+      document.documentElement.style.setProperty("--clone-white","#000" );
+
      
     }
   }, [darkMode]);
@@ -95,7 +92,7 @@ function Sidebar() {
               <Link to="/Sikles">
                 <li>
                   <BsCodeSlash className="sidbar_icons" />
-                  <span className= "abeer" >sikles</span>
+                  <span className= "abeer" >Skills</span>
                 </li>
               </Link>
               <Link to="/Work">
