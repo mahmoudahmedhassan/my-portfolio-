@@ -47,7 +47,7 @@ function Work() {
             <div className="my-work">
               <div className="overlay">
               <p className="caption">Rest Countries Site</p>
-                <button className="show-demo"><a href='https://restcuntriesapi.netlify.app/' target='_blank' rel="noopener noreferrer">Demo Live</a> </button>
+                <button className="show-demo"><a href='https://lucid-mccarthy-d7687b.netlify.app' target='_blank' rel="noopener noreferrer">Demo Live</a> </button>
               </div>
               <img src={countries} alt="countries app" />
             </div>
