@@ -66,7 +66,7 @@ function Work() {
             <div className="my-work">
               <div className="overlay">
                  <p className="caption">Redux Search Movies Site </p>
-                <button className="show-demo"> <a href='https://redux-movies-app-11.netlify.app/' target='_blank' rel="noopener noreferrer"> Demo Live</a></button>
+                <button className="show-demo"> <a href='https://cocky-shirley-91da87.netlify.app' target='_blank' rel="noopener noreferrer"> Demo Live</a></button>
               </div>
               <img src={searchmovie} alt="searchmovie app" />
             </div>
