@@ -39,7 +39,7 @@ function CallME() {
                 <div>
                   <HiOutlineMail className="detailes-icon" /> <span>Email</span>
                 </div>
-                <p className="details-area">mahmoud.ahmed.hasssan@gmail.com</p>
+                <p className="details-area my-email">mahmoud.ahmed.hasssan@gmail.com</p>
               </div>
             </Col>
           </Row>

@@ -7,6 +7,8 @@
     align-items:center;
     width: 100%;
     height:100vh;
+    position: relative;
+    z-index: 999;
 }
 .call-me-title{
     margin-bottom: 30px;
@@ -76,6 +78,9 @@
      }
      .social-media{
         margin-top: 0px;
+     }
+     .my-email{
+         font-size:14px
      }
 
 }
