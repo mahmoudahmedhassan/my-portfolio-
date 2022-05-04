@@ -7,11 +7,10 @@
   flex-direction: column;
   color: #fff;
   width: 100%;
-  min-height:700;
+  min-height:900px;
   position: relative;
   z-index: 999;
-  margin: 250px 0 250px 0;
-}
+ }
 
 .introduction .introduction-name {
   font-size: 2.5rem;
