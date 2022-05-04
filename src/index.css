@@ -42,10 +42,9 @@ a:hover{
 	text-decoration:none;
 }
 
-.pages{
-   height: auto;
+.App{
+  height: auto;
   background-color: var(--very-dark);
-  /* background-color: rgb(204, 204, 204); */
   z-index: 1;
   display: flex;
   justify-content:center;
@@ -64,10 +63,11 @@ body::-webkit-scrollbar-thumb{
    }
 .App{
 	position: relative;
+	min-height:100vh;
 }
 .animation-area {
 	width: 100%;
-	height: 100vh;
+	min-height:100vh;
 	position: absolute; ;
  }
 .box-area {
@@ -139,14 +139,14 @@ body::-webkit-scrollbar-thumb{
 
 
 @media (max-width:600px){
-	.pages{
-		width: 100vw;
-		/* height: auto; */
+	.App{
+		/* width: 100vw; */
+		min-height: 100vw;
 		background-color: var(--very-dark);
-		z-index: 1;
-		display: flex;
+		/* z-index: 1; */
+		/* display: flex;
 		justify-content:center;
-		align-items:center;
+		align-items:center; */
 	  }
 }
 

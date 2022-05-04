@@ -44,11 +44,14 @@
   border: none;
   padding: 10px;
   border-radius: 30px;
-  width: 150px;
+  width: 100px;
   background: var(--main-color);
   color: #fff;
   opacity: 0;
   transition: 0.3s;
+}
+.show-demo{
+  margin: 10px;
 }
 .overlay .caption {
   opacity: 0;
@@ -68,6 +71,12 @@
   height: 200px;
   width: 100%;
   border-radius: 20px;
+}
+
+.buttons-demo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 @media (min-width: 425px) and (max-width: 767.98px) {
   .my-work {

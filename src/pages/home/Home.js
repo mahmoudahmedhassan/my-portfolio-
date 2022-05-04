@@ -7,7 +7,8 @@ function Home() {
     <motion.div
       initial={{ y: 1000 }}
       animate={{ y:0 }}
-      transition={{ type: "spring", duration:1 }}
+      transition={{ type: "spring", duration:1 }
+    }
     >
       <div className="home">
         <div className="introduction">
@@ -20,6 +21,7 @@ function Home() {
         <div className="hey">
           <h1>HEY!</h1>
         </div>
+        
       </div>
     </motion.div>
   );

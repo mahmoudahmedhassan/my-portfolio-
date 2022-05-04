@@ -3,7 +3,7 @@
   align-items: center;
   margin: 30px 0;
   color: #fff;
-  height: 100vh;
+  min-height: 700px;
  }
 .column-reverse {
   display: flex;

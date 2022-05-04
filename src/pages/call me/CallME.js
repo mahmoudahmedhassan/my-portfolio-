@@ -4,14 +4,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
 
 import { FiPhoneCall } from "react-icons/fi";
-import { HiOutlineMail } from "react-icons/hi";
-import { HiOutlineLocationMarker } from "react-icons/hi";
+import { HiOutlineMail, HiOutlineLocationMarker} from "react-icons/hi";
 
-import facebook from "../../SVG/facebook.png";
+import linkedin from "../../SVG/linkedin-pngrepo-com.png";
 import github from "../../SVG/github-sign.png";
 import whatsapp from "../../SVG/whatsapp.png";
-// import phone from "../../SVG/phone-call.png";
-
 
 function CallME() {
   return (
@@ -58,8 +55,8 @@ function CallME() {
         <div className="social-media">
           <ul>
             <li>
-              <a href="https://www.facebook.com/show9595/" target="_blank" rel="noopener noreferrer">
-                  <img src={facebook} alt="" height="50px" width="50px" />
+              <a href="https://linkedin.com/in/mahmoud-ahmed-85a3b5197" target="_blank" rel="noopener noreferrer">
+                  <img src={linkedin} alt="" height="50px" width="50px" />
               </a>
             </li>
 

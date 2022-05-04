@@ -8,7 +8,7 @@ import CallME from "./pages/call me/CallME.js";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App ">
+    <div className="App">
             <div className='animation-area' >
                <ul className="box-area">
               <li></li>
@@ -19,10 +19,11 @@ function App() {
               <li></li>
             </ul>
             </div>
+            
         <Router>
           
         <Sidebar />
-        <div className="pages">
+        {/* <div className="pages"> */}
 
           <Route exact path="/">
             <Home />
@@ -43,7 +44,7 @@ function App() {
           <Route path="/callME">
             <CallME />
           </Route>
-        </div>
+        {/* </div> */}
       </Router>
     </div>
   );
