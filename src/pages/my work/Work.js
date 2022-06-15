@@ -85,7 +85,7 @@ function Work() {
                 <div className="overlay">
                   <p className="caption">Redux Search Movies Site </p>
                   <div className='buttons-demo'>
-                    <button className="show-demo"> <a href='https://cocky-shirley-91da87.netlify.app' target='_blank' rel="noopener noreferrer"> Demo Live</a></button>
+                    <button className="show-demo"> <a href='https://cocky-shirley-91da87.netlify.app' target='_blank' rel="noopener noreferrer"> Demo </a></button>
                     <button className="show-demo"> <a target='_blank' href='https://github.com/mahmoudahmedhassan/e-commerce--react-redux.git' rel="noopener noreferrer" >Code</a> </button>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ function Work() {
                 <div className="overlay">
                   <p className="caption">Clone Static YouTube </p>
                   <div className='buttons-demo'>
-                    <button className="show-demo"> <a href='https://colon-static-youtube.netlify.app/' target='_blank' rel="noopener noreferrer"> Demo Live</a></button>
+                    <button className="show-demo"> <a href='https://colon-static-youtube.netlify.app/' target='_blank' rel="noopener noreferrer"> Demo </a></button>
                     <button className="show-demo"> <a target='_blank' href='https://github.com/mahmoudahmedhassan/Static-YouTube-Clone.git' rel="noopener noreferrer" >Code</a> </button>
                   </div>
                 </div>
@@ -111,7 +111,7 @@ function Work() {
                 <div className="overlay">
                   <p className="caption">E-commerce React-Redux </p>
                   <div className='buttons-demo'>
-                    <button className="show-demo"> <a href='https://e-commerce-react-redux-1.netlify.app/' target='_blank' rel="noopener noreferrer"> Demo Live</a></button>
+                    <button className="show-demo"> <a href='https://e-commerce-react-redux-1.netlify.app/' target='_blank' rel="noopener noreferrer"> Demo </a></button>
                     <button className="show-demo"> <a target='_blank' href='https://github.com/mahmoudahmedhassan/e-commerce--react-redux.git' rel="noopener noreferrer" >Code</a> </button>
                   </div>
                 </div>
@@ -124,7 +124,7 @@ function Work() {
                 <div className="overlay">
                   <p className="caption">Hdomy Store </p>
                   <div className='buttons-demo'>
-                    <button className="show-demo"> <a href='https://hdomystore1.netlify.app/ ' target='_blank' rel="noopener noreferrer"> Demo Live</a></button>
+                    <button className="show-demo"> <a href='https://hdomystore1.netlify.app/ ' target='_blank' rel="noopener noreferrer"> Demo </a></button>
                     <button className="show-demo"> <a target='_blank' href='https://github.com/mahmoudahmedhassan/Hodmy-E-commerce-.git' rel="noopener noreferrer" >Code</a> </button>
                   </div>
                 </div>
