@@ -67,7 +67,7 @@ function CallME() {
             </li>
 
             <li > 
-              <a href="http://whatsapp.my/01096759755" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/01096759755" target="_blank" rel="noopener noreferrer">
                  <img src={whatsapp} alt="" height="50px" width="50px" />
               </a>
             </li>
