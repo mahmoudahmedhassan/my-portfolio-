@@ -103,7 +103,7 @@ function Sidebar() {
                   whileHover={{ scale: 1.2, originX: 0 }}
                   transition={{ type: "spring", stiffness: 300, duration: 0.4 }}
                 >
-                  skills 
+                  Skills 
                  </motion.span>{" "}
               </li>
             </NavLink>
