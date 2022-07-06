@@ -95,7 +95,7 @@ function Sidebar() {
                 </motion.span>{" "}
               </li>
             </NavLink>
-            <NavLink to="/Sikles" activeClassName="active" exact>
+            <NavLink to="/skills" activeClassName="active" exact>
               <li>
                 <BsCodeSlash className="sidbar_icons" />
                 <motion.span
@@ -103,11 +103,11 @@ function Sidebar() {
                   whileHover={{ scale: 1.2, originX: 0 }}
                   transition={{ type: "spring", stiffness: 300, duration: 0.4 }}
                 >
-                  Sikles
-                </motion.span>{" "}
+                  skills 
+                 </motion.span>{" "}
               </li>
             </NavLink>
-            
+
             <NavLink to="/Work" activeClassName="active" exact>
               <li>
                 <BsWallet className="sidbar_icons" />

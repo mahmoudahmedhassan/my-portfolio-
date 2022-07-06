@@ -2,7 +2,7 @@ import Sidebar from "./Components/Sidbar/Sidebar";
 import Home from "./pages/home/Home.js";
 import Profile from "./pages/profile/Profile.js";
 import Work from "./pages/my work/Work.js";
-import Sikles from "./pages/sikles/Sikles.js";
+import Skills from "./pages/skills/Skills.js";
 import CallME from "./pages/call me/CallME.js";
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -33,8 +33,8 @@ function App() {
             <Profile />
           </Route>
 
-          <Route path="/sikles">
-            <Sikles />
+          <Route path="/skills">
+            <Skills />
           </Route>
 
           <Route path="/work">

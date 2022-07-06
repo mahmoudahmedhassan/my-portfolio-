@@ -1,5 +1,5 @@
 import React from "react";
-import "./sikles.css";
+import "./skills.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 import js from "../../SVG/js.svg";
@@ -10,7 +10,7 @@ import bootstrap from "../../SVG/bootstrap.svg";
 import react from "../../SVG/react.png";
 import { motion } from "framer-motion";
 
-function Sikles() {
+function Skills() {
   return (
     <motion.div
     initial={{ y: 1000 }}
@@ -71,4 +71,4 @@ function Sikles() {
   );
 }
 
-export default Sikles;
+export default Skills;
