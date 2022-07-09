@@ -8,8 +8,7 @@ import { HiOutlineMail, HiOutlineLocationMarker} from "react-icons/hi";
 
 import linkedin from "../../SVG/linkedin-pngrepo-com.png";
 import github from "../../SVG/github-sign.png";
-import whatsapp from "../../SVG/whatsapp.png";
-
+ 
 function CallME() {
   return (
     <motion.div
