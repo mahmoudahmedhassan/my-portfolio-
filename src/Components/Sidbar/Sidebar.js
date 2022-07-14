@@ -35,6 +35,7 @@ function Sidebar() {
       document.documentElement.style.setProperty("--white", "#626c75");
       document.documentElement.style.setProperty("--clone-main-color", "#fff");
       document.documentElement.style.setProperty("--clone-white", "#fff");
+      document.documentElement.style.setProperty("--different-color", "#fff");
     } else {
       document.documentElement.style.setProperty(
         "--main-color",
@@ -50,6 +51,7 @@ function Sidebar() {
         "rgb(97,27,227)"
       );
       document.documentElement.style.setProperty("--clone-white", "#000");
+      document.documentElement.style.setProperty("--different-color", "#4f3a76");
     }
   }, [darkMode]);
 
